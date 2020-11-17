@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    outline: none;
 }
 
 
@@ -191,24 +192,24 @@ section {
 .about .about-me button {
     width: 200px;
     height: 35px;
-    border: 1px solid  #D84530;
-    color:  #D84530;
+    color: #F8F8F8;
     border-radius: 8px;
     font-size: 16px;
     font-weight: bold;
     margin-top: 16px;
     outline: none;
     cursor: pointer;
-    background-color: #F8F8F8;
+    background-color: #D84530;
+    border: 1px solid  #D84530;
     font-family: 'Ubuntu', sans-serif;
 }
 
 .about .about-me button:hover {
     width: 202px;
     height: 35px;
-    background-color: #c42209;
-    border: none;
-    color: #fff;
+    background-color: #fff;
+    border: 1px solid  #D84530; 
+    color: #D84530;
     border-radius: 8px;
     font-size: 16px;
     font-weight: bold;
@@ -240,8 +241,7 @@ section {
 }
 
 .icons-social a i:hover {
-    color: #D84530;
-    cursor: pointer;
+    border-bottom: 3px solid #D84530;
 }
 
 .I-do {
@@ -404,28 +404,50 @@ section {
 .projects .max-width .projects-course .info-projects .btn-project {
     width: 200px;
     height: 35px;
-    border: 1px solid  #D84530;
-    color:  #D84530;
+    border: 1px solid #D84530;
+    color: #F8F8F8;
     border-radius: 8px;
     font-size: 16px;
     font-weight: bold;
     margin-top: 16px;
     outline: none;
     cursor: pointer;
-    background-color: #F8F8F8;
+    background-color: #D84530;
     font-family: 'Ubuntu', sans-serif;
 }
 
 .projects .max-width .projects-course .info-projects .btn-project:hover {
     width: 202px;
     height: 35px;
-    background-color: #c42209;
-    border: none;
-    color: #fff;
+    background-color: #F8F8F8;
+    border: 1px solid  #D84530;
+    color: #D84530;
     border-radius: 8px;
     font-size: 16px;
     font-weight: bold;
     margin-top: 16px;
+    transition: all 0.3s ease;
+}
+
+
+.projects .max-width .github .btn-project {
+    width: 200px;
+    height: 35px;
+    border: 1px solid #D84530;
+    background-color: #fff;
+    color:#D84530;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 48px;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.projects .max-width .github .btn-project:hover {
+    background-color: #D84530;
+    color: #fff;
     transition: all 0.3s ease;
 }
 
@@ -493,17 +515,17 @@ section {
 .contrate-me .section-contrate-me 
 .info-contrate-me .icons-social-form {
     padding: 16px;
+    text-align: start;
 }
-.contrate-me .section-contrate-me a {
-    text-align: center;
-}
+
 
 .contrate-me .section-contrate-me a i {
     color: #fff;
     margin-right: 8px;
     font-size: 25px;
     border-bottom: 3px solid#02010a;
-   padding-bottom: 4px;
+    padding-bottom: 4px;
+    
 }
 
 .contrate-me .section-contrate-me 
@@ -563,6 +585,7 @@ section {
 .button-contrate-me {
     background-color: #D84530;
     color: #fff;
+    border: 1px solid  #D84530;
     font-size: 16px;
     font-weight: bold;
     text-align: center;
@@ -573,6 +596,14 @@ section {
     border: none;
     width: 200px;
 }
+
+.contrate-me .section-contrate-me 
+.form-contrate-me form 
+.button-contrate-me:hover {
+    background-color: #F8F8F8;
+    color: #D84530;
+}
+
 
 footer {
     height: 35px;
