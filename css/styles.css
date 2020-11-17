@@ -146,6 +146,10 @@ section {
     font-family: 'Ubuntu', sans-serif;
     font-size: 40px;
     font-weight: 500;
+    padding-top: 8px;
+    border-bottom: 3px solid #D84530;
+    width: 200px;
+    margin: 0 auto;
 }
 
 /* .about .title::before{
@@ -195,6 +199,8 @@ section {
     margin-top: 16px;
     outline: none;
     cursor: pointer;
+    background-color: #F8F8F8;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .about .about-me button:hover {
@@ -218,6 +224,7 @@ section {
 .about .about-me p {
     max-width: 500px;
     padding-bottom: 12px;
+    text-align: start;
 }
 
 .icons-social{
@@ -239,18 +246,18 @@ section {
 
 .I-do {
     width: 100%;
-    height: 60vh;
+    height: 55vh;
     background-color: #02010a;
     color: #fff;
 }
 
 .I-do .max-width {
     max-width: 1300px;
-    margin-top: 55px;
+    margin-top: 45px;
     text-align: center;
 }
 
-.I-do .max-width h3, .educations .max-width .title {
+.I-do .max-width .title, .educations .max-width .title {
     font-family: 'Ubuntu', sans-serif;
     font-size: 30px;
     font-weight: 500;
@@ -279,6 +286,7 @@ section {
     font-family: 'Ubuntu', sans-serif;
     width: 400px;
     padding: 12px;
+    text-align: start;
 }
 
 .educations {
@@ -292,8 +300,9 @@ section {
 .educations .max-width {
     max-width: 1300px;
     text-align: center;
-    margin-top: 24px;
+    padding-top: 24px;
 }
+
 
 .educations .max-width .formation {
     width: 400px;
@@ -334,12 +343,13 @@ section {
 .educations .max-width .formation .explainer p {
     font-size: 14px;
     font-family: 'Ubuntu', sans-serif;
+    text-align: start;
 }
 
 .projects {
     width: 100%;
     height: 200vh;
-    background-color: rgb(228, 226, 228);
+    background-color: #fff;
     color: #000;
     margin: 0;
     padding: 0;
@@ -348,8 +358,77 @@ section {
 .projects .max-width {
     max-width: 1300px;
     text-align: center;
-    margin-top: 24px;
+    padding-top: 18px;
 }
+.projects .max-width .title {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    margin: auto;
+    border-bottom: 3px solid #D84530;
+    width: 248px;
+    padding-top: 36px;
+}
+
+.projects .max-width .projects-course {
+   display: flex;
+   justify-content: space-around;
+   padding-top: 100px;
+   margin: 0 auto;
+}
+
+.projects .max-width .projects-course .id-projects img{
+    height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.projects .max-width .projects-course .info-projects {
+    width: 500px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.projects .max-width .projects-course .info-projects h2 {
+    font-size: 42px;
+}
+
+.projects .max-width .projects-course .info-projects .divisor-projects {
+    padding-bottom: 24px;
+    font-size: 21px;
+}
+
+.projects .max-width .projects-course .info-projects .btn-project {
+    width: 200px;
+    height: 35px;
+    border: 1px solid  #D84530;
+    color:  #D84530;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 16px;
+    outline: none;
+    cursor: pointer;
+    background-color: #F8F8F8;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.projects .max-width .projects-course .info-projects .btn-project:hover {
+    width: 202px;
+    height: 35px;
+    background-color: #c42209;
+    border: none;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 16px;
+    transition: all 0.3s ease;
+}
+
 
 .section-projetcs { 
     text-align: center;
@@ -366,6 +445,7 @@ section {
 .section-projetcs .projects-course .info-projects p {
     width: 400px;
     padding: 48px;
+    text-align: start;
 }
 
 .contrate-me {
@@ -374,6 +454,7 @@ section {
     align-items: center;
     padding: 0;
     height: 85vh;
+    background-color:#F8F8F8;
 }
 .contrate-me h2 {
     padding-top: 24px;
@@ -386,7 +467,7 @@ section {
     background: #02010a;
     margin: 25px;
     padding: 25px;
-    color: #fff;
+    color: #F8F8F8;
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
     border: 1px solid #111;
@@ -406,6 +487,7 @@ section {
     width: 350px;
     padding: 12px;
     font-family: 'Ubuntu', sans-serif;
+    text-align: start;
 }
 
 .contrate-me .section-contrate-me 

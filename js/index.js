@@ -15,7 +15,7 @@ $(document).ready(function(){
 })
 
 const title = document.querySelector('.dev')
-let texts = ['Desenvolvedora Full Stack', 'UX e UI Designer', 
+let texts = ['Desenvolvedora FullStack', 'UX e UI Designer', 'Freelancer', 
 'Blogueira', 'Marketer Digital']
 function typeWriter(element, done) {
     let char = element.split('').reverse()
@@ -56,3 +56,20 @@ function footer(container, el) {
 }
 
 footer(texts)
+
+/*
+let showChar = 100
+let ellipsesText = "..."
+let moreText = "Ler Mais >"
+let lessText = "Ler menos"
+
+$('.more').each(function() {
+    let content = $(this).html()
+
+    if(content.length > showChar) {
+        let c = content.substr(, showChar)
+        let h = content.substr(showChar, content.length - showChar)
+
+        let html = c + '<span class="moreEllipses">' + ellipsesText + '&nbsp;</span><span class="moreContent"'
+    }
+})*/

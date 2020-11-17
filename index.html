@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@400;500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/d3js/6.2.0/d3.min.js"></script>
     <title>Laís Mello | Portfólio</title>
 </head>
 <body>
@@ -50,13 +51,13 @@
                 </div>
                 <div class="column right">
                     <div class="text"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque efficitur nibh sed tempor euismod. 
-                        Aliquam erat volutpat. Aenean bibendum ipsum vel neque blandit, sit amet euismod nisi luctus. 
-                        In ut sem quis enim porttitor euismod. Sed hendrerit commodo est, quis accumsan lectus interdum sed. 
-                        Vivamus nec rutrum urna. Morbi hendrerit sollicitudin egestas. 
-                        Nulla ac rutrum velit. Donec lacinia magna felis, varius aliquet sem consequat eu.</p>
+                    <p>Sou Desenvolvedora Web FullStack Formada pela Labenu onde tenho vivência de mais de 1000 horas de código. <br> <br>
+                        <span>Além disso, estudo UX e UI designer e Marketing digital para proporcionar uma melhor experiência para o usuário<br><br>
+                        Gosto de escrever e compartilhar meus conhecimentos através do meu blog voltado para programação e marketing digital. <br></span>
+                        Abaixo estão as tecnologias que eu trabalho atualmente:
+                    </p>
                     <p>| React | Typescript | NodeJS | MySQL | Javascript  | WordPress | HTML | CSS</p>
-                    <button>CV em PDF</button>
+                    <a href="./assets/Profile-lais.pdf" target="_blank"><button type="button" id="cv">CV em PDF</button></a>
                 </div>
             </div> 
         </div>
@@ -67,9 +68,13 @@
             <div class="stacks">
                 <div class="front-end">
                     <h2>Front-End</h2>
-                    <p>In lacinia interdum nisl, ac cursus arcu fringilla vitae. Morbi consequat ut dolor a tempus. 
-                        Morbi scelerisque, sapien a dignissim tristique, nunc turpis tincidunt odio, 
-                        sit amet eleifend lorem felis sit amet ex.</p>
+                    <p>Desenvolvimento de aplicações
+                        web utilizando HTML, CSS e
+                        JavaScript.
+                        
+                        Criação de sites responsivos
+                        seguindo princípio de
+                        Mobile First.</p>
                 </div>
                 <div class="back-end">
                     <h2>Back-End</h2>
@@ -100,41 +105,44 @@
             <h3 class="title">Meus Projetos</h3>
             <div class="projects-course">
                 <div class="id-projects">
-                    <h2>WhatsLab</h2>
-                    <p>Front-End</p>
-                </div>
-                <div class="info-projects">
                     <img src="./assets/pc.png"/>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque efficitur nibh sed tempor euismod. 
+                </div>
+                <div class="info-projects">
+                    <h2>WhatsLab</h2>
+                    <p class="divisor-projects">Front-End</p>
+                    <p class="explanation-project">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque efficitur nibh sed tempor euismod. 
                         Aliquam erat volutpat. Aenean bibendum ipsum vel neque blandit, sit amet euismod nisi luctus. 
                         In ut sem quis enim porttitor euismod. Sed hendrerit commodo est, quis accumsan lectus interdum sed.</p>
-                        <button class="">Ver no GitHub</button>
+                        <div>
+                            <button class="btn-project">Front-End</button>
+                            <button class="btn-project">Back-End</button>
+                        </div>
+                </div>
+            </div>
+            <div class="projects-course">
+                <div class="info-projects">
+                    <h2>WhatsLab</h2>
+                    <p class="divisor-projects">Front-End</p>
+                    <p class="explanation-project">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque efficitur nibh sed tempor euismod. 
+                        Aliquam erat volutpat. Aenean bibendum ipsum vel neque blandit, sit amet euismod nisi luctus. 
+                        In ut sem quis enim porttitor euismod. Sed hendrerit commodo est, quis accumsan lectus interdum sed.</p>
+                        <button class="btn-project">Mais detalhes</button>
+                    </div>
+                <div class="id-projects">
+                    <img src="./assets/note.png"/>
                 </div>
             </div>
             <div class="projects-course">
                 <div class="id-projects">
-                    <h2>WhatsLab</h2>
-                    <p>Front-End</p>
-                </div>
-                <div class="info-projects">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque efficitur nibh sed tempor euismod. 
-                        Aliquam erat volutpat. Aenean bibendum ipsum vel neque blandit, sit amet euismod nisi luctus. 
-                        In ut sem quis enim porttitor euismod. Sed hendrerit commodo est, quis accumsan lectus interdum sed.</p>
-                        <button>Ver no GitHub</button>
-                        <img src="./assets/note.png"/>
-                </div>
-            </div>
-            <div class="projects-course">
-                <div class="id-projects">
-                    <h2>WhatsLab</h2>
-                    <p>Front-End</p>
-                </div>
-                <div class="info-projects">
                     <img src="./assets/tablet.png"/>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque efficitur nibh sed tempor euismod. 
+                </div>
+                <div class="info-projects">
+                    <h2>WhatsLab</h2>
+                    <p class="divisor-projects">Front-End</p>
+                    <p class="explanation-project">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque efficitur nibh sed tempor euismod. 
                         Aliquam erat volutpat. Aenean bibendum ipsum vel neque blandit, sit amet euismod nisi luctus. 
                         In ut sem quis enim porttitor euismod. Sed hendrerit commodo est, quis accumsan lectus interdum sed.</p>
-                        <button>Ver no GitHub</button>
+                        <button class="btn-project">Mais detalhes</button>
                 </div>
             </div>
         </div>
