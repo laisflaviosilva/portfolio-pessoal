@@ -15,8 +15,7 @@ $(document).ready(function(){
 })
 
 const title = document.querySelector('.dev')
-let texts = ['Desenvolvedora Full-Stack', 'UX e UI Designer', 'Freelancer', 
-'Blogueira', 'Marketer Digital']
+let texts = ['Desenvolvedora Full-Stack', 'UX e UI Designer']
 function typeWriter(element, done) {
     let char = element.split('').reverse()
     const typer = setInterval(function(){
